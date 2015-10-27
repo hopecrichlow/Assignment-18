@@ -59,7 +59,7 @@
     left: -1.85714em; }
 
 .fa-border {
-  padding: 0.2em 0.25em 0.15em;
+  padding: .2em .25em .15em;
   border: solid 0.08em #eee;
   border-radius: .1em; }
 
@@ -2019,6 +2019,14 @@
   content: ""; }
 
 body {
-  background: #e2ebf3; }
+  width: 400px;
+  margin: auto;
+  background: #DA6CDF;
+  text-align: center; }
+  body ul {
+    list-style: none;
+    margin-top: 50px; }
+    body ul li {
+      font-family: cursive; }
 
 /*# sourceMappingURL=main.css.map */
